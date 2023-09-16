@@ -1,0 +1,114 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	padding: 0;
+	background: cadetblue;
+	color: moccasin;
+}
+
+nav {
+	background: darkslategray;
+	height: 3.6rem;
+	border-bottom:1px moccasin solid;
+	margin-bottom: 2.4rem;
+	position: sticky;
+	top: 0;
+	left: 0;
+	width: 100%;
+	margin-top: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+input {
+	width: clamp(150px, 70%, 900px);
+	height: 2.5rem;
+	border: 1px solid black;
+}
+
+button {
+	height: 2.5rem;
+	width: 160px;
+	border-radius: 10px%;
+	background: blanchedalmond;
+	border-width: 1px;
+}
+
+button:hover {
+	background: peachpuff;
+	border-width: 2px;
+}
+
+button:click {
+	background: moccasin;
+}
+
+
+.inputs {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 1px;
+}
+
+
+.input-div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 5px;
+	min-width: 40%;
+}
+
+.container {
+	width: clamp(100px, 75%, 1200px);
+	border: 4px black solid ;
+	margin: auto;
+	background: darkslategray;
+}
+
+.contacts {
+	min-height: 70vh;
+	max-width: 90%;
+	margin: auto;
+	margin-bottom: 2.4rem;
+	border: 2px black solid;
+	background: cadetblue;
+}
+
+ul {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+
+li {
+	margin: 0.5rem;
+	border: 2px solid darkslategray;
+	font-size: 1.5rem;
+	padding: 0.5rem;
+}
+
+li:hover{
+	height: 5rem;
+	font-size: 3rem;
+	background: darkslategray;
+	color: peachpuff;
+	list-style: circle;
+	border-color: moccasin;
+}
+
+.delete-btn{
+	background: maroon;
+}
+
+.delete-btn:hover{
+	background: darkred;
+}
